@@ -124,6 +124,9 @@ section {
 
 
 
+
+
+
 .menu-item {
     display: inline-flex;
     margin-right: 50px;
@@ -283,7 +286,7 @@ section {
 }
 
 
-.button-color {
+.button-open {
     font-family: 'Roboto', sans-serif;
     padding: 10px 32px;
     font-style: normal;
@@ -395,6 +398,7 @@ section {
     padding-top: 0;
     padding-left: 15px;    
     padding-right: 15px;
+    
 }
 
 
@@ -417,8 +421,46 @@ section {
     justify-content: space-between;
     padding-left: 0;
     margin: 0%;
+    
 
 
+
+}
+
+
+
+.details-list {
+    position: absolute;
+    width: 370px;
+    height: 70px;    
+    top: 1435px;     
+    background-color: rgba(47, 48, 58, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+    
+.details-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+     
+   
 }
 
 
@@ -622,9 +664,7 @@ section {
 
 /* Все */
 
-.portfolio {
-    padding-top: 0%;
-}
+
 
 
 .list {
@@ -653,6 +693,7 @@ section {
     padding-left: 0%;  
     gap: 30px;
     margin: 0;
+    
 
     
     
@@ -683,9 +724,69 @@ section {
     border: 1px solid #EEEEEE;
     cursor: pointer;
     
+ 
+    
+}
+
+
+
+.overlay {
+    position: relative;
+   
+    
+   
+
+}
+
+.resurs {    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 294px;   
+    background-color: rgba(33, 150, 243, 0.9);  
+    overflow: hidden;
+        transform: translatey(0);
+    
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     
 }
+    
+.overlay:hover .resurs {
+    transform: translatey(-100%);
+    
+    
+}
+
+
+
+
+.resurs-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;    
+    letter-spacing: 0.03em;    
+    color: #FFFFFF;
+    padding: 63px 24px;
+    text-align: left;
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+        
+}
+    
 
 .portfolio-card:hover,
 .portfolio-card:focus {
@@ -694,17 +795,11 @@ section {
 }
 
 
-.portfolio-card:focus,
-.portfolio-card:active {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
-}
-
-
 
 .portfolio-card-list {
     padding: 20px 24px;
-}
+    
+}    
 
 /* Кнопки */
 
@@ -732,6 +827,7 @@ section {
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     outline: none;
+   
     
 }
 
