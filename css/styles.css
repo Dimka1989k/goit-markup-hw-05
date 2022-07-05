@@ -693,10 +693,11 @@ section {
     padding-left: 0%;  
     gap: 30px;
     margin: 0;
+    
    
 
 }
-button
+
 
 
 .text {
@@ -750,14 +751,14 @@ button
     
 }
     
-.overlay:hover .overlay-icon {
+.portfolio-card:hover .overlay-icon {
     transform: translatey(-100%);
-    opacity: 1;
+    
+    
+    
     
     
 }
-
-
 
 
 
