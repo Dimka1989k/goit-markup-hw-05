@@ -77,15 +77,17 @@
       <section class="hero">
         <div class="container">
           <h1 class="solution">Эффективные решения для вашего бизнеса</h1>
-          <button data-modal-open class="button-open" type="button">Заказать услугу</button>
-        </div>
-        
-        <div class="backdrop is-hidden data-modal" data-modal>
-            <div class="modal">
-              <button data-modal-close class="button-close" type="button">x</button>
+            <button class="button-open" type="button" data-modal-open>Заказать услугу</button>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button class="button-close" type="button" data-modal-close>
+                        <svg class="close-icon" aria-label="link mail" width="30" height="30">
+                            <use href="./images/symbol-defs.svg#icon-close">
+                            </use>
+                        </svg>
+                    </button>
                 </div>
-        </div>         
-
+            </div>                 
       </section>
       <!--Особенности-->
       <section class="specific">
@@ -214,7 +216,7 @@
               <h3 class="name">Игорь Демьяненко</h3>
               <p class="job-title">Product Designer</p>
               <ul class="link-contact">
-                <li>
+                <li class="">
                   <a href="" class="job-network">
                     <svg class="social-links">
                       <use
