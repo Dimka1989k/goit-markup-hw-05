@@ -445,40 +445,45 @@ section {
     justify-content: space-between;
     padding-left: 0;
     margin: 0%;
-    
-
-
 
 }
 
 
-.details-list {
-    
-    width: 370px;
-    height: 70px;    
-    top: 1435px;     
-    background-color: rgba(47, 48, 58, 0.8);
-    display: flex;
-    justify-content: center;
+
+.work-type {
+    position: relative;
+    display: block;
+    justify-content: space-between;
     align-items: center;
-   
-
-
+    
+    
+    
 }
+
+
+
     
 .details-text {
+    position: absolute;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1px;
     text-align: center;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-transform: uppercase;    
     color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+    
+        
+    
 
 
     
